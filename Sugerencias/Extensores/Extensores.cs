@@ -58,7 +58,7 @@ namespace Sugerencias
                     }
                 }
             }
-            return null; // could also return string.Empty
+            return null;
         }
     }
 

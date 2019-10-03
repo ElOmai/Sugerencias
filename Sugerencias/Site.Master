@@ -14,9 +14,7 @@
     <script type="text/javascript" src="/Scripts/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="/Scripts/popper.min.js"></script>
     <script type="text/javascript" src="/Scripts/bootstrap.min.js"></script>
-    <!--Alerta Sweet-->
     <script type="text/javascript" src="/Scripts/sweetalert.min.js"></script>
-    <!--Alerta Sweet 2.0-->
     <script type="text/javascript" src="/Scripts/sweetalert2.all.min.js"></script>
     <script type="text/javascript">
         function sweetalert(Title, Text, icon, Button) {

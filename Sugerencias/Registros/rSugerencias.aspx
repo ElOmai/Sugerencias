@@ -7,20 +7,20 @@
         <div class="card">
             <div class="card-header badge-dark text-white text-center"><strong><%:Page.Title %></strong></div>
             <div class="card-body text-center">
-                <%--SugerenciasID--%>
+            
                 <div class="input-group">
                     <div class="input-group-prepend">
                         <span class="input-group-text">SugerenciasId </span>
                     </div>
                     <asp:TextBox ID="SugerenciasIdTextBox" TextMode="Number" MaxLength="9" runat="server" Text="0" CssClass="form-control input-sm col-md-3"></asp:TextBox>
                     <asp:Button Text="Buscar" CssClass="btn btn-info col-md-3" runat="server" ID="BuscarButton" OnClick="BuscarButton_Click" />
-                    <%--Fecha--%>
+                   
                     <div class="input-group-prepend">
                         <span class="input-group-text " id="Fecha">Fecha </span>
                     </div>
                     <asp:TextBox ID="FechaTextBox" TextMode="Date" runat="server" CssClass="form-control input-sm " Visible="true"></asp:TextBox>
                 </div>
-                <%--Descripción--%>
+              
                 <div class="input-group ">
                     <div class="input-group-prepend">
                         <span class="input-group-text">Descripción </span>
