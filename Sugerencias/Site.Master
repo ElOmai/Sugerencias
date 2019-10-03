@@ -2,7 +2,7 @@
     Language="C#" 
     AutoEventWireup="true" 
     CodeBehind="Site.master.cs" 
-    Inherits="Sugerencias.Site" %>
+    Inherits="SugerenciasApp.Site" %>
 
 <!DOCTYPE html>
 
@@ -42,7 +42,7 @@
             });
         }
     </script>
-    <title><%: Page.Title %> Sugerencias</title>
+    <title><%: Page.Title %> SugerenciasApp</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -50,7 +50,7 @@
     <form id="form1" runat="server">
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container-fluid">
-                <a class="navbar-brand" runat="server" href="~/">Sugerencias</a>
+                <a class="navbar-brand" runat="server" href="~/">SugerenciasApp</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -63,14 +63,14 @@
                             <a class="nav-link dropdown-toggle" id="RegistrosNavbarDropDown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Registros
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" runat="server" href="Registros/RegistroSugerencias.aspx">Sugerencias</a>
+                                <a class="dropdown-item" runat="server" href="Registros/rSugerencias.aspx">SugerenciasApp</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Consultas
                             </a>
                             <div class="dropdown-menu" aria-labelledby="ConsultasNavbarDropDown">
-                                <a class="dropdown-item" runat="server" href="#">Sugerencias</a>
+                                <a class="dropdown-item" runat="server" href="#">SugerenciasApp</a>
                                 
                             </div>
                         </li>
@@ -84,7 +84,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Sugerencias</p>
+                <p>&copy; <%: DateTime.Now.Year %> - SugerenciasApp</p>
             </footer>
         </div>
     </form>
