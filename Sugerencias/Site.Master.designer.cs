@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SugerenciasApp {
+namespace Sugerencias {
     
     
     public partial class Site {
