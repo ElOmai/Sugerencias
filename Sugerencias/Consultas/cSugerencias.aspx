@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="container-fluid">
+<div class="container-fluid">
         <div class="card text-center bg-light mb-3">
             <div class="card-header"><%:Page.Title %></div>
             <div class="card-body">
@@ -30,13 +30,11 @@
                             </div>
                         </div>
                     </div>
-                    <%--CheckBox--%>
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
                             <asp:CheckBox AutoPostBack="true" Checked="true" OnCheckedChanged="FechaCheckBox_CheckedChanged" ID="FechaCheckBox" runat="server" Text="Filtrar por fecha" />
                         </div>
                     </div>
-                    <%--FechaDesde--%>
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
                             <span class="input-group-text" id="FechaDesde">Desde </span>
@@ -51,7 +49,6 @@
                             <asp:TextBox ID="FechaHastaTextBox" TextMode="Date" runat="server" class="form-control input-sm" Visible="true"></asp:TextBox>
                         </div>
                     </div>
-                    <%--GRID--%>
                     <asp:ScriptManager runat="server" ID="ScriptManager"></asp:ScriptManager>
                     <asp:UpdatePanel ID="UpdatePanel" runat="server">
                         <ContentTemplate>
@@ -67,7 +64,7 @@
                                     <Columns>
                                         <asp:HyperLinkField ControlStyle-CssClass="btn btn-info"
                                             DataNavigateUrlFields="SugerenciasId"
-                                            DataNavigateUrlFormatString="~/Registros/RegistroSugerencias.aspx?SugerenciasId={0}"
+                                            DataNavigateUrlFormatString="~/Registros/rSugerencias.aspx?SugerenciasId={0}"
                                             Text="Editar"></asp:HyperLinkField>
                                     </Columns>
                                     <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
